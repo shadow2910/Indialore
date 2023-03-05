@@ -2,13 +2,13 @@
     <div class="container-fluid" id="navbar">
         <div class="d-flex">
             <img src="assets/logo.png" height="50" width="50" id="logo">
-            <div class="nav1">
+            <div class="nav1" >
               <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="horizontal">
                 <li ngbNavItem="Home">
-                  <a ngbNavLink>Home</a>
+                  <a ngbNavLink routerLink="">Home</a>
                 </li>
-                <li ngbNavItem="About Me">
-                  <a ngbNavLink>Contact Us</a>
+                <li ngbNavItem="Contact Us">
+                  <a ngbNavLink routerLink="contactus">Contact Us</a>
                 </li>
               </ul>
               <div [ngbNavOutlet]="nav" class="ms-4"></div>
