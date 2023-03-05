@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="container-fluid" id="navbar">
+        <div class="d-flex">
+            <img src="/assets/logo.png" height="50" width="50" id="logo">
+            <div class="nav1">
+              <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills" orientation="horizontal">
+                <li ngbNavItem="Home">
+                  <a ngbNavLink>Home</a>
+                </li>
+                <li ngbNavItem="About Me">
+                  <a ngbNavLink>Contact Us</a>
+                </li>
+              </ul>
+              <div [ngbNavOutlet]="nav" class="ms-4"></div>
+            </div> 
+        </div> 
+    </div>
+    <div class="jumbotron">
+        <h4 class="display-3"><i><b>Do you know?..</b></i></h4>
+    </div>
+</div>
+

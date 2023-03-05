@@ -1,0 +1,34 @@
+.container-fluid{
+    background-color: rgb(23, 3, 109);
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 20%;
+}
+#navbar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 1%;
+    margin: 0;
+    height: 10%;
+}
+.jumbotron{
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    margin: 0;
+    background-color: rgb(141, 95, 172);
+    border-radius: 0%;
+    text-align: left;
+}
+.display-3{
+    color: rgb(255, 255, 255);
+}
+#nav1{
+    padding: 5%;
+    background-color: brown;
+}
+#logo{
+    border-radius: 50%;
+}
