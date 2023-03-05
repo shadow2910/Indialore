@@ -14,25 +14,25 @@ export class BodyComponent implements OnInit {
       title: 'Card Title 1',
       description: 'Some quick example text to build on the card title and make up the bulk of the card content',
       buttonText: 'Button',
-      img: '/assets/a.jpg'
+      img: 'assets/a.jpg'
     },
     {
       title: 'Card Title 2',
       description: 'Some quick example text to build on the card title and make up the bulk of the card content',
       buttonText: 'Button',
-      img: '/assets/b.jpg'
+      img: 'assets/b.jpg'
     },
     {
       title: 'Card Title 3',
       description: 'Some quick example text to build on the card title and make up the bulk of the card content',
       buttonText: 'Button',
-      img: '/assets/a.jpg'
+      img: 'assets/a.jpg'
     },
     {
       title: 'Card Title 4',
       description: 'Some quick example text to build on the card title and make up the bulk of the card content',
       buttonText: 'Button',
-      img: '/assets/b.jpg'
+      img: 'assets/b.jpg'
     },
 
   ];
